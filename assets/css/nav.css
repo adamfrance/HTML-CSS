@@ -1,0 +1,41 @@
+#topnav {
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color: chocolate;
+    font-family:"Farro";
+    font-size:20px;
+    /* text-shadow: 3px 3px 3px #420000; */
+    margin-top: 10px;
+    padding: 10px;
+}
+
+img {
+    width:40px;
+}
+
+.nav-link {
+    display: inline-block;
+    width:70px;
+    height:30px;
+    color:rgb(105, 218, 152);
+    text-align:center;
+    vertical-align:center;
+    /* line-height:70px; */
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: cadetblue;
+    border-radius:10px;
+    font-size: 25px;
+    text-shadow: 6px 6px 6px #db0000;
+    transition: all .5s; 
+
+}
+
+a.active {
+    background-color:rgb(69, 124, 207);
+    border-radius: 5px;;
+}

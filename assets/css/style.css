@@ -1,0 +1,22 @@
+table {
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+th,td {
+    height: 50px;
+    border : 5px groove rgb(28, 112, 91);
+    padding: 10px;
+}
+
+th {
+    text-decoration: underline;
+}
+
+tr:nth-child(even) {
+    background-color: gray;
+    color : white;
+    font-weight: 700;
+}

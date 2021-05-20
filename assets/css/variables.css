@@ -1,0 +1,22 @@
+:root {
+    --my-color : #8F3A84;
+    --default-padding : 10px 10px 5px 5px;
+    --default-color : rgb(80, 190, 47);
+    --default-right-padding: calc(2vw*3);
+}
+
+
+p {
+    color : var(--my-color);
+    padding : var(--default-padding);
+}
+
+a {
+    --default-color : rgb(78, 78, 221);
+}
+
+.container {
+    --color-container : yellow;
+    --Color-container : rgb(33, 31, 158);
+    margin : var(--default-margin,20px);
+}
